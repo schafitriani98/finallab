@@ -1,15 +1,13 @@
-let mobileMenu = document.querySelector("#mobile_menu")
-let mobileBars = document.querySelector("#bars")
-let closeBars = document.querySelector("#close")
-
-mobileBars.addEventListener ("click", function(){
-    mobileMenu.style.display = "block"
+// mobile menu
+document.querySelector("button").addEventListener("click", function(){
     document.querySelector("#mobile_menu").classList.add("show")
 })
-closeBars.addEventListener("click", function(){
-    mobileMenu.style.display = "none"
-    document.querySelector("#mobile_menu").classList.add("hide")
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector("#mobile_menu").classList.remove("show")
+    // document.querySelector("#mobile_menu").classList.add("hide")
 })
+
 
 // newsletter
 let newsLetter = document.querySelector(".newsletter_popup")
@@ -22,7 +20,8 @@ sideButton.addEventListener ("click", function(){
 })
 closeSide.addEventListener("click", function(){
     newsLetter.style.display = "none"
-    document.querySelector("#subscription").classList.add("hide")
+    document.querySelector("#subscription").classList.remove("show")
+    // document.querySelector("#subscription").classList.add("hide")
 })
 
 

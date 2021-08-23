@@ -76,6 +76,7 @@ body {
   text-align: center;
 }
 .mobile_flex a {
+  display: block;
   margin-bottom: 40px;
   text-decoration: none;
   color: black;
@@ -645,7 +646,7 @@ form {
   position: relative;
   width: 40vw;
   margin: 0 auto;
-  top: 50%;
+  top: 40%;
   background-color: #4ea374;
   border-radius: 5px;
 }
@@ -656,6 +657,9 @@ form input {
   margin: 5px auto;
 }
 @media (max-width: 800px){
+  form {
+    top: 20%;
+  }
   form input {
     padding: 5px;
   }
@@ -668,8 +672,16 @@ form input {
 }
 .newsletter_popup button {
   position: absolute;
+  font-weight: bold;
   right: 5px;
   top: 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.603);
+}
+.newsletter_popup button:hover {
+  cursor: pointer;
 }
 form h3 {
   text-align: start;
