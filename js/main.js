@@ -32,7 +32,6 @@ closeSide.addEventListener("click", function(){
 //     "img\sun bear termenung.jpg",
 //     "img\tyre swing sun bear.jpg",
 //     "img\volunteer bear 1.jpg"
-//     ]
 
 
 // let next = document.querySelector("#nextBtn")
@@ -40,25 +39,6 @@ closeSide.addEventListener("click", function(){
 // let sliderImage = document.querySelector("#slider_image")
 // let i = 0 //current image index
 
-// next.addEventListener ("click", function(){
-//     sliderImage.innerHTML = (images[i]);
-//     if(i === 3) {
-//         i = 0;
-//     }
-//     else {
-//         i++;
-//     }
-// })
-
-// previous.addEventListener("click", function(){
-//     sliderImage.innerHTML = (images[i]);
-//     if (i === 0) {
-//         i = 3;
-//     }    
-//     else {
-//         i--;    
-//     }
-// })
 
 
 
