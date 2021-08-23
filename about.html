@@ -16,7 +16,7 @@
             <a href="/index.html">Home</a>
             <a href="/about.html">About Us</a>
             <a href="/volunteer.html">Volunteer</a>
-            <a href="/meetOurBears.html">Meet Our Bears</a>
+            <a href="/sunbearfacts.html">Sun Bear Facts</a>
           </nav>
           <button id="bars"><i class="fas fa-bars"></i></button>
           <div id="mobile_menu">
@@ -24,7 +24,7 @@
               <a href="/index.html">Home</a>
               <a href="/about.html">About</a>
               <a href="/volunteer.html">Volunteer</a>
-              <a href="/meetOurBears.html">Meet Our Bears</a>
+              <a href="//sunbearfacts.html">Sun Bear Facts</a>
               
             </div>
             <button id="close">x</button>
@@ -53,7 +53,7 @@
         </div>
         <div class="mission_caption about_caption">
             <h3>Our Mission</h3>
-            <p>
+              <p>
                 The mission of the Bornean Sun Bear Conservation Centre in Sabah, Malaysia, is to promote sun bear conservation in Borneo through animal welfare, conservation, rehabilitation, education and research- giving captured sun bears a better home and restoring their right to live in the wild, by:
             </p>
             <ul>
@@ -69,7 +69,7 @@
                 <li>
                     <p>Achieving increased protection for sun bears and their habitat through ongoing research, increased knowledge and awareness, and further protection of habitat.</p>
                 </li>
-            </ul>
+            </ul>  
         </div>
     </div>
 
@@ -141,8 +141,25 @@
         </div>
       </footer>
       <div class="newsletter">
-        <a href="#"> Join Our Newsletter</a>
+        <a id="sideBtn" href="#"> Join Our Newsletter</a>
       </div>
+      <div id="subscription" class="newsletter_popup">
+        <button id="close_side">x</button>
+        <form action="#" method="POST">
+          <div class="form_content">
+            <h3>Subscribe to our newsletter!</h3>
+            <div class="names">
+              <input type="text" name="firstname" id="firstname" placeholder="First name">
+              <input type="text" name="lastname" id="lastname" placeholder="Last name">
+            </div>
+            <div>
+              <input type="email" name="email" id="emailInput" placeholder="Email">
+              <input type="submit" value="Subscribe" class="red_btn">
+            </div>
+          </div>
+        </form>
+    </div>
+  
     <script src="/js/main.js"></script>
 </body>
 </html>
