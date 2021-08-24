@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BSBCC | Meet Our Bears</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/c2fdb0b443.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="banner banner_facts">
+      <section class="banner_content flex banner_top">
+        <img
+          class="bsbcc_logo"
+          src="./img/bsbcc_round_logo-removebg-preview.png"
+        />
+        <nav class="navigation">
+          <a href="/index.html">Home</a>
+          <a href="/about.html">About Us</a>
+          <a href="/volunteer.html">Volunteer</a>
+          <a href="/sunbearfacts.html">Sun Bear Facts</a>
+        </nav>
+        <button id="bars"><i class="fas fa-bars"></i></button>
+        <div id="mobile_menu">
+          <div class="mobile_flex">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About Us</a>
+            <a href="/volunteer.html">Volunteer</a>
+            <a href="/sunbearfacts.html">Sun Bear Facts</a>
+          </div>
+          <button id="close">x</button>
+        </div>
+      </section>
+      <section class="banner_content banner_caption">
+        <h3>Sun Bear Facts</h3>
+        <p>
+          The sun bear is the smallest, most arboreal and least studied bear.
+          <br /><br /><strong>Get to know our fellas!</strong>
+        </p>
+        <br />
+      </section>
+    </header>
+
+    <div class="overview margin_container">
+      <div class="flex overview_justify">
+        <div class="overview_caption">
+          <h3>Overview</h3>
+          <p><b>Status:</b> Vulnerable</p>
+          <p><b>Scientific name:</b> <i>Helarctos malayanus</i></p>
+          <p><b>Length:</b> 120 – 150cm</p>
+          <p><b>Weight:</b> 20 – 70kg</p>
+          <p><b>Habitat:</b> Tropical lowland areas, SE Asia</p>
+          <p><b>Diet:</b> Omnivorous</p>
+          <p><b>Average number of cubs:</b> one</p>
+          <p><b>Life-expectancy:</b> 30 years</p>
+        </div>
+        <div class="overview_image">
+          <img src="/img/tyre swing sun bear.jpg" alt="sun bear " />
+        </div>
+      </div>
+    </div>
+
+    <div class="threats margin_container">
+      <h3 class="header_content">Threats</h3>
+      <div class="threats_content">
+        <h4>Habitat Loss</h4>
+        <p>
+          Like many species, deforestation and degradation of habitat has
+          dramatically decreased their numbers. The main causes in Borneo are
+          plantation development, unsustainable or illegal logging and
+          human-caused fires. In Sumatra and Borneo, large-scale conversion of
+          forest to oil palm or other cash crops is proceeding at a rate of
+          1,000s of km² per year (Holmes 2002).
+        </p>
+      </div>
+      <div class="threats_content">
+        <h4>Commercial hunting</h4>
+        <p>
+          Sun bears are primarily hunted for their gall bladders (for use in
+          Chinese folk medicine) and bear paws (as an expensive delicacy). In
+          China and Vietnam, bile is milked from bears while they are still
+          alive. Bears are routinely restocked as they do not live long. Killing
+          sun bears is illegal in all of their native counties but is largely
+          uncontrolled.
+        </p>
+      </div>
+      <div class="threats_content">
+        <h4>Pet Trade</h4>
+        <p>
+          Sun bears are the smallest bear in the world. As such, their cubs are
+          considered incredibly cute and there is a high demand for them as
+          pets. The mother is killed and the orphaned cub is removed from the
+          wild and commonly kept in small cages with inadequate care.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Have a question or comment? We welcome all enquiries, so please get in
+        touch from any of the methods below:
+      </p>
+      <div class="flex">
+        <div class="item email">
+          <i class="fas fa-envelope"></i>
+          <a href="#">info.bsbcc@gmail.com</a>
+        </div>
+        <div class="item phone">
+          <i class="fas fa-phone-square"></i>
+          <a href="#">+60 89-534491</a>
+        </div>
+        <div class="item socmed flex">
+          <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram-square fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+    <div class="newsletter">
+      <a id="sideBtn" href="#"> Join Our Newsletter</a>
+    </div>
+    <div id="subscription" class="newsletter_popup">
+      <button id="close_side">x</button>
+      <form action="#" method="POST">
+        <div class="form_content">
+          <h3>Subscribe to our newsletter!</h3>
+          <div class="names">
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="First name"
+            />
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Last name"
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="emailInput"
+              placeholder="Email"
+            />
+            <input type="submit" value="Subscribe" class="red_btn" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
